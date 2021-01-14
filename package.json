@@ -1,0 +1,20 @@
+{
+  "name": "mle-vault-sort",
+  "version": "0.1.0",
+  "description": "CLI to prompt a sorting action for each file in the working directory. Limited to my use case organizing my nvAlt/SimpleNote/Obsidian vault, but could be expanded.",
+  "bin": {
+    "mle-vault-sort": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "sort": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "inquirer-autosubmit-prompt": "^0.2.0",
+    "log-to-file": "^2.0.2"
+  }
+}
